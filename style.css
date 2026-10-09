@@ -1,0 +1,140 @@
+
+#baoTron{
+    background: white;
+    width: 100%;
+}
+header{
+    background: beige;
+    width: 100%;
+}
+h2{
+    color:green;
+}
+.tieuDe2{
+    width: 100%;
+    background: beige;
+    text-align: center;
+}
+nav{
+    background: #ff2b89;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* 1. Xóa bỏ dấu chấm tròn đen của danh sách <ul> */
+/* 1. CHỐNG TRÀN VÀ ĐỔI MÀU NỀN CHỮA LÀNH */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #fcf9f2; /* Màu kem nhạt dịu mắt */
+    color: #2b3a2b;
+    font-family: sans-serif;
+    padding-top: 15px;
+}
+
+/* 2. MENU NẰM NGANG - CUỘN NGÓN TAY */
+nav ul {
+    display: flex;
+    overflow-x: auto;       /* Vuốt ngang trên điện thoại */
+    white-space: nowrap;    /* Cấm chữ nhảy xuống dòng */
+    list-style-type: none;
+    background-color: #ffffff;
+    padding: 15px 10px;
+}
+nav li {
+    flex-shrink: 0;
+    margin: 0 15px;
+}
+nav a {
+    text-decoration: none;  /* Xóa gạch chân */
+    color: #4a6b4a;         /* Xanh lá chữa lành */
+    font-weight: bold;
+    font-size: 16px;
+}
+nav a:hover, nav a:active {
+    color: #2e4a2e;
+    border-bottom: 2px solid #8fbc8f;
+}
+
+/* 3. Ô QUẢNG CÁO */
+.ads-box {
+    background-color: #fff9e6; 
+    border: 1px dashed #ffcc00;
+    padding: 15px;            
+    margin: 15px auto;        
+    width: 90%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* 4. KHUNG CHỨA VÀ CÁC Ô DANH NGÔN CHỮA LÀNH */
+.quotes-container {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #fcf9f2;
+}
+.quote-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 auto 20px auto;
+    width: 90%;
+    border-left: 4px solid #a3b899; /* Vạch xanh xô thơm */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+    word-wrap: break-word;
+}
+.quote-card .en { font-size: 18px; font-weight: bold; margin-bottom: 8px; }
+.quote-card .vi { font-size: 14px; color: #6e7f6e; font-style: italic; }
+footer {
+    text-align: center;
+    padding: 30px 10px;
+    margin-top: 40px; /* Tạo một khoảng cách lớn ngăn cách với các ô danh ngôn phía trên */
+    background-color: #f4eee1; /* Màu nền chân trang hơi đậm hơn nền web một chút để phân biệt */
+    font-size: 13px; /* Chữ chân trang nên để nhỏ, thanh lịch */
+    color: #6e7f6e;
+    border-top: 1px solid #e1d8c3; /* Một đường kẻ mỏng tinh tế ở phía trên chân trang */
+}
+/* 1. Hiệu ứng cuộn mượt cho toàn trang web */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 2. Làm đẹp cho tiêu đề các chủ đề danh ngôn */
+.theme-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4a6b4a;
+    margin: 30px 0 15px 0;
+    letter-spacing: 1px;
+}
+
+/* 3. Chỉnh lại chữ dòng lưu ý nhỏ dưới danh ngôn */
+.quote-card .note {
+    font-size: 12px; 
+    color: #888; 
+    margin-top: 8px;
+    font-style: italic;
+}
+
+
+footer .footer-links {
+    margin-top: 10px; /* Khoảng cách giữa dòng bản quyền và các đường link */
+}
+
+footer a {
+    color: #4a6b4a;
+    text-decoration: none; /* Xóa gạch chân của các link pháp lý */
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+footer a:hover, footer a:active {
+    color: #2e4a2e;
+    text-decoration: underline; /* Khi chạm tay vào thì mới hiện gạch chân để người dùng biết là bấm được */
+}
