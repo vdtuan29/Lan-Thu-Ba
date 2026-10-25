@@ -76,7 +76,7 @@ nav a:hover, nav a:active {
 .quotes-container {
     width: 100%;
     padding: 10px 0;
-    background-color: #fcf9f2;
+    background-color: blue;
 }
 .quote-card {
     background-color: #ffffff;
