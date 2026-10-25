@@ -4,7 +4,7 @@
     width: 100%;
 }
 header{
-    background: beige;
+    background: blue;
     width: 100%;
 }
 h2{
@@ -12,11 +12,11 @@ h2{
 }
 .tieuDe2{
     width: 100%;
-    background: beige;
+    background: blue;
     text-align: center;
 }
 nav{
-    background: #ff2b89;
+    background: blue;
     width: 100%;
     margin-left:auto;
     margin-right:auto;
@@ -43,7 +43,7 @@ nav ul {
     overflow-x: auto;       /* Vuốt ngang trên điện thoại */
     white-space: nowrap;    /* Cấm chữ nhảy xuống dòng */
     list-style-type: none;
-    background-color: #ffffff;
+    background-color: blue;
     padding: 15px 10px;
 }
 nav li {
@@ -63,7 +63,7 @@ nav a:hover, nav a:active {
 
 /* 3. Ô QUẢNG CÁO */
 .ads-box {
-    background-color: #fff9e6; 
+    background-color: blue; 
     border: 1px dashed #ffcc00;
     padding: 15px;            
     margin: 15px auto;        
@@ -94,7 +94,7 @@ footer {
     text-align: center;
     padding: 30px 10px;
     margin-top: 40px; /* Tạo một khoảng cách lớn ngăn cách với các ô danh ngôn phía trên */
-    background-color: #f4eee1; /* Màu nền chân trang hơi đậm hơn nền web một chút để phân biệt */
+    background-color: blue; /* Màu nền chân trang hơi đậm hơn nền web một chút để phân biệt */
     font-size: 13px; /* Chữ chân trang nên để nhỏ, thanh lịch */
     color: #6e7f6e;
     border-top: 1px solid #e1d8c3; /* Một đường kẻ mỏng tinh tế ở phía trên chân trang */
